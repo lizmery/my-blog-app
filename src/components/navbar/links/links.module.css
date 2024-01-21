@@ -6,11 +6,17 @@
 
 .logout {
     padding: 15px;
-    background-color: var(--text);
+    background-color: var(--primary);
     color: var(--bg);
-    border: none;
+    border: 1px solid var(--primary);
     font-weight: bold;
     cursor: pointer;
+}
+
+.logout:hover {
+    background-color: transparent;
+    color: var(--white);
+    transition: .3s ease-in-out;
 }
 
 .mobileLinks, .menuBtn {

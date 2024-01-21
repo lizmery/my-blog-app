@@ -7,6 +7,15 @@
 }
 
 .active {
-    background-color: var(--secondaryBtn);
+    background-color: var(--white);
     color: var(--bg);
+    border: 1px solid var(--white);
 }
+
+/*
+.active:hover {
+    background-color: transparent;
+    transition: .3s ease-in-out;
+    color: var(--white);
+}
+*/

@@ -1,10 +1,21 @@
+/*
 :root {
     --bg: #141520;
-    --text: #fff;
+    --white: #fff;
     --bgSoft: #222436;
-    --textSoft: #e5e5e5;
-    --btn: #a4f9c8;
-    --secondaryBtn: #cbbaed;
+    --lightGray: #e5e5e5;
+    --primary: #a4f9c8;
+    --secondary: #cbbaed;
+}
+*/
+
+:root {
+    --bg: #060410;
+    --white: #fff;
+    --bgSoft: #2F2E41;
+    --lightGray: #D3D5D4;
+    --primary: #42D9C8;
+    --secondary: #cbbaed;
 }
 
 * {
@@ -15,7 +26,7 @@
 
 body {
     background-color: var(--bg);
-    color: var(--text);
+    color: var(--white);
 }
 
 a {
