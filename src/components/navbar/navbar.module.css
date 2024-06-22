@@ -3,10 +3,58 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 1536px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .logo {
     font-size: 30px;
     font-weight: bold;
-    color: var(--lightGray);
+    color: var(--primarySoft);
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.nav {
+    background-color: var(--bgDark);
+    width: 100%;
+}
+
+@media (max-width: 1536px) {
+    .container {
+        width: 1366px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 475px;
+    }
 }

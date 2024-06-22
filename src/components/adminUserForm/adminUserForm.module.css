@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .container input,
+  .container textarea,
+  .container select {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: var(--black);
+    border: none;
+  }
+  
+  .container button {
+    padding: 20px;
+    cursor: pointer;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    transition: all .5s ease-in;
+  }
+
+  .container button:hover {
+    background-color: var(--bgDark);
+  }

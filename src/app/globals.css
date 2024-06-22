@@ -1,21 +1,12 @@
-/*
-:root {
-    --bg: #141520;
-    --white: #fff;
-    --bgSoft: #222436;
-    --lightGray: #e5e5e5;
-    --primary: #a4f9c8;
-    --secondary: #cbbaed;
-}
-*/
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 :root {
-    --bg: #060410;
-    --white: #fff;
-    --bgSoft: #2F2E41;
-    --lightGray: #D3D5D4;
-    --primary: #42D9C8;
-    --secondary: #cbbaed;
+    --bg: #edf6f9;
+    --black: #090909;
+    --bgDark: #006d77;
+    --primary: #e29578;
+    --secondary: #83c5be;
+    --primarySoft: #ffddd2;
 }
 
 * {
@@ -26,7 +17,7 @@
 
 body {
     background-color: var(--bg);
-    color: var(--white);
+    color: var(--black);
 }
 
 a {
@@ -42,7 +33,6 @@ a {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 @media (max-width: 1536px) {

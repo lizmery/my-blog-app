@@ -1,21 +1,42 @@
+.section {
+  background-color: var(--bg);
+}
 .container {
     display: flex;
-    gap: 100px;
+    gap: 200px;
+    min-height: calc(100vh - 100px);
+    flex-direction: row;
+    align-items: center;
 }
 
 .textContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
+    height: 100%;
+    justify-content: center;
 }
 
 .title {
     font-size: 96px;
+    color: var(--bgDark);
+    text-transform: lowercase;
+    line-height: 96px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: var(--primary);
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
 }
 
 .desc {
     font-size: 20px;
+    line-height: 30px;
 }
 
 .buttons {
@@ -27,36 +48,63 @@
     padding: 20px;
     min-width: 120px;
     cursor: pointer;
-    border: 1px solid var(--primary);
-    /*border-radius: 5px;*/
+    border: none;
+    border-radius: 5px;
     background-color: var(--primary);
     font-size: 1rem;
+    color: #fff;
 }
 
 .btn:hover {
-    background-color: transparent;
-    color: var(--white);
+    background-color: var(--bgDark);
     transition: .3s ease-in-out;
 }
 
 .secondaryBtn {
     background-color: var(--secondary);
-    border: 1px solid var(--secondary);
+    border: none;
+    color: white;
 }
 
-.imgContainer {
-    flex: 1;
+
+.home_imgWrapper {
+    width: 100%;
+    max-width: 500px;
+    border: 4px dotted var(--primarySoft);
+    border-radius: 50%;
+    padding: 15px;
+    height: 500px;
+  }
+  
+  .home_banner {
+    padding-bottom: 100%;
     position: relative;
-}
+    z-index: 1;
+  }
+  
+  .home_profile {
+    position: absolute;
+    bottom: 0;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid var(--primarySoft);
+    padding: 15px; 
+  }
 
 @media (max-width: 1024px) {
     .container {
       flex-direction: column;
       text-align: center;
+      gap: 100px;
+      margin-top: 50px;
     }
   
     .buttons{
       justify-content: center;
+    }
+
+    .home_imgWrapper {
+      border: none;
     }
   }
   
@@ -64,8 +112,8 @@
     .title {
       font-size: 64px;
     }
-  
-    .brands{
-      width: 100%;
+    .container {
+        gap: 50px;
     }
   }
+

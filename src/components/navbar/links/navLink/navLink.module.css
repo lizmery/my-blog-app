@@ -7,15 +7,20 @@
 }
 
 .active {
-    background-color: var(--white);
-    color: var(--bg);
-    border: 1px solid var(--white);
+    color: var(--primary);
 }
 
-/*
-.active:hover {
-    background-color: transparent;
-    transition: .3s ease-in-out;
-    color: var(--white);
+.login {
+    padding: 15px;
+    background-color: var(--primary);
+    color: var(--bg);
+    border: 1px solid var(--primary);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
 }
-*/
+
+.active:hover {
+    color: white;
+    transition: .3s ease-in-out;
+}

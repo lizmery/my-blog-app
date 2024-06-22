@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px dotted var(--secondary);
+    padding: 5px;
+}
+
+.texts {
+    display: flex;
+    gap: 5px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.username {
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .texts {
+        flex-direction: column;
+    }
+}

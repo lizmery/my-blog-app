@@ -5,9 +5,33 @@ const nextConfig = {
         remotePatterns:[
             {
                 protocol: 'https',
-                hostname:'urlofimagehere.com' // example: unsplash.com
-            }
-        ]
+                hostname:'unsplash.com', // example: unsplash.com
+                pathname:'/photos/**'
+            },
+            {
+                protocol: 'https',
+                hostname:'images.unsplash.com', 
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.freeimages.com',
+                pathname:'/photo/**'
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.pexels.com',
+                pathname:'/photo/**'
+            },
+            {
+                protocol: 'https',
+                hostname: 'images.pexels.com',
+            },
+            {
+                protocol: 'https',
+                hostname:'www.unsplash.com', 
+                pathname:'/photos/**'
+            },
+        ],
     }
 }
 

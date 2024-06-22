@@ -1,0 +1,40 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .row h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--bgDark);
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .col img {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--primarySoft);
+    padding: 5px;
+  }
+  
+  .line{
+    margin: 100px;
+    color: var(--bgDark)
+  }
+  
+  @media (max-width: 1024px) {
+    .row {
+      flex-direction: column;
+    }
+  }
