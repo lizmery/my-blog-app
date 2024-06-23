@@ -5,7 +5,7 @@ import { Suspense } from 'react'
 import { getPost } from '../../../lib/data'
 
 const getData = async (slug) => {
-  const res = await fetch(`http://localhost:3001/api/blog/${slug}`)
+  const res = await fetch(`${process.env.URL}/api/blog/${slug}`)
 
   if (!res.ok) {
     throw new Error('Failed to fetch post')
