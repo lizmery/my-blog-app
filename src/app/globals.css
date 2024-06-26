@@ -33,6 +33,7 @@ a {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 @media (max-width: 1536px) {
@@ -69,6 +70,9 @@ a {
 
 @media (max-width: 640px) {
     .container {
-        width: 475px;
+        width: 90%;
+        padding-left: initial;
+        padding-right: initial;
     }
+
 }

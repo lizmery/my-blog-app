@@ -24,8 +24,8 @@ const Home = () => {
           </p>
 
           <div className={styles.buttons}>
-            <Link href='/about'><button className={styles.btn}>Contact</button></Link>
-            <Link href='/contact'><button className={`${styles.btn} ${styles.secondaryBtn}`}>Portfolio</button></Link>
+            <Link href='/contact'><button className={styles.btn}>Contact</button></Link>
+            <Link href='/portfolio'><button className={`${styles.btn} ${styles.secondaryBtn}`}>Portfolio</button></Link>
           </div>
         </div>
         <div className={styles.home_imgWrapper}>
