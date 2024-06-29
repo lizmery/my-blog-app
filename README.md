@@ -22,10 +22,12 @@ A fully responsive hair salon website with a simple design that features a blog 
 
 ## Screenshots
 ### Home Page
-![screencapture-ecommerce-app-dun-omega-vercel-app-2024-06-29-13_21_40 (1)](https://github.com/lizmery/ecommerce-app/assets/78451440/9ab57c4c-0839-40eb-aacd-7b361623bc31)
+![screencapture-my-blog-app-ebon-vercel-app-2024-06-29-16_02_45](https://github.com/lizmery/my-blog-app/assets/78451440/c4d4e231-1254-42cd-9457-28f4b3d77122)
 
+## Portfolio Page
+![screencapture-my-blog-app-ebon-vercel-app-portfolio-2024-06-29-16_04_52](https://github.com/lizmery/my-blog-app/assets/78451440/cac30fa4-c930-4ed2-a328-b6fde121248e)
 
-### Customer Dashboard
+### Blog
 ![Screen Shot 2024-06-29 at 3 40 27 PM](https://github.com/lizmery/ecommerce-app/assets/78451440/45a42401-cab2-41bd-8ff4-75d1e45890e2)
 ![screencapture-ecommerce-app-dun-omega-vercel-app-account-products-75468df5-c604-4ce4-951f-f62acd16bf75-purchase-2024-06-29-15_40_44](https://github.com/lizmery/ecommerce-app/assets/78451440/1a070039-ec09-4a74-ade9-9f770b899cab)
 
