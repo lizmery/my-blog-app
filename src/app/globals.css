@@ -106,7 +106,7 @@ a {
 .custom-shape-divider-bottom-1719867639 svg {
     position: relative;
     display: block;
-    width: calc(117% + 1.3px);
+    width: 100%;
     height: 116px;
 }
 
@@ -117,7 +117,7 @@ a {
 /** For mobile devices **/
 @media (max-width: 767px) {
     .custom-shape-divider-bottom-1719867639 svg {
-        width: calc(128% + 1.3px);
+        width: 100%;
         height: 116px;
     }
 }
