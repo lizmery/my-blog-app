@@ -93,8 +93,7 @@ a {
 
 
 
-
-.custom-shape-divider-bottom-1719860844 {
+.custom-shape-divider-bottom-1719867639 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -104,38 +103,21 @@ a {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1719860844 svg {
+.custom-shape-divider-bottom-1719867639 svg {
     position: relative;
     display: block;
     width: calc(117% + 1.3px);
     height: 116px;
 }
 
-.custom-shape-divider-bottom-1719860844 .shape-fill {
+.custom-shape-divider-bottom-1719867639 .shape-fill {
     fill: #FFFFFF;
 }
 
-
-
-
-
-.custom-shape-divider-bottom-1719864779 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1719864779 svg {
-    position: relative;
-    display: block;
-    width: calc(117% + 1.3px);
-    height: 116px;
-}
-
-.custom-shape-divider-bottom-1719864779 .shape-fill {
-    fill: #FFFFFF;
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1719867639 svg {
+        width: calc(128% + 1.3px);
+        height: 116px;
+    }
 }

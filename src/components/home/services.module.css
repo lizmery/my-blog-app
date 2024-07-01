@@ -5,6 +5,7 @@
     align-items: center;
     gap: 100px;
     background-color: var(--pink);
+    min-height: 100vh;
 }
 
 .servicesWrapper {
@@ -20,6 +21,7 @@
     gap: 200px;
     flex-direction: row;
     align-items: center;
+    min-height: 100vh;
 }
 
 .title {
@@ -101,7 +103,6 @@
     }
 
     .box {
-        border-right: none;
         padding: 1rem;
     }
 
