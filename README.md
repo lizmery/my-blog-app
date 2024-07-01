@@ -22,16 +22,8 @@ A fully responsive hair salon website with a simple design that features a blog 
 
 ## Screenshots
 ### Home Page
-![screencapture-my-blog-app-ebon-vercel-app-2024-06-29-16_02_45](https://github.com/lizmery/my-blog-app/assets/78451440/c4d4e231-1254-42cd-9457-28f4b3d77122)
+![screencapture-my-blog-app-ebon-vercel-app-2024-07-01-14_06_15](https://github.com/lizmery/my-blog-app/assets/78451440/cac2744d-f402-49fc-8a1f-343bcbac519b)
 
-## Portfolio Page
-![screencapture-my-blog-app-ebon-vercel-app-portfolio-2024-06-29-16_04_52](https://github.com/lizmery/my-blog-app/assets/78451440/cac30fa4-c930-4ed2-a328-b6fde121248e)
-
-### Blog
-
-
-
-## Admin Dashboard
 
 
 
