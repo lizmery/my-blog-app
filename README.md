@@ -36,9 +36,12 @@ A fully responsive hair salon website with a simple design that features a blog 
 
 
 ## Future Implementations
-- Add other authentication providers (e.g. Google)
+- Add other authentication providers (e.g. Google, Email)
 - Admin Dashboard
     - Ability to update posts
     - Ability to update user roles
     - Auto generate blog post slug when creating new posts
 - Blog
+    - Ability to comment on other posts
+    - Ability to like/favorite posts
+-  Appointment Scheduler
