@@ -39,7 +39,7 @@ const Portfolio =  () => {
   return (
     <div className={`container ${styles.portfolio}`}>
         <div className={styles.row}>
-            <h4 className={styles.subtitle}>Subtitle goes here </h4>
+            <h4 className='subtitle'>Subtitle goes here </h4>
             <h1 className={styles.title}>portfolio</h1>
         </div>
         <div className={`${styles.container}`}>

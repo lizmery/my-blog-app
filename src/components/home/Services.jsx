@@ -8,7 +8,7 @@ const Services = () => {
     <div className={styles.servicesSection}>
       <div className={`container ${styles.servicesWrapper}`}>
         <div className={styles.row}>
-          <h4 className={styles.subtitle}>Subtitle goes here </h4>
+          <h4 className='subtitle'>Subtitle goes here </h4>
           <h1 className={styles.title}>our services</h1>
         </div>
        

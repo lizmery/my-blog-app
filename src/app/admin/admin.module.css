@@ -14,7 +14,7 @@
   .row h1{
     font-size: 36px;
     font-weight: 700;
-    color: var(--bgDark);
+    color: var(--primary);
   }
   
   .col {
@@ -30,7 +30,7 @@
   
   .line{
     margin: 100px;
-    color: var(--bgDark)
+    color: var(--primary)
   }
   
   @media (max-width: 1024px) {

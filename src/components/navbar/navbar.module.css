@@ -7,18 +7,18 @@
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: var(--bgDark);
+    background-color: var(--pink);
 }
 
 .logo {
     font-size: 30px;
     font-weight: bold;
-    color: var(--primarySoft);
+    color: var(--black);
     font-family: 'Cedarville Cursive', cursive;
 }
 
 .nav {
-    background-color: var(--bgDark);
+    background-color: var(--pink);
     width: 100vw;
 }
 

@@ -1,5 +1,6 @@
 .section {
-  background-color: var(--bg);
+  background-color: var(--green);
+ 
 }
 .container {
     display: flex;
@@ -7,6 +8,7 @@
     min-height: calc(100vh - 100px);
     flex-direction: row;
     align-items: center;
+    position: relative;
 }
 
 .textContainer {
@@ -20,19 +22,12 @@
 
 .title {
     font-size: 96px;
-    color: var(--bgDark);
+    color: var(--primary);
     text-transform: lowercase;
     line-height: 96px;
     margin-bottom: 10px;
 }
 
-.subtitle {
-    color: var(--primary);
-    text-transform: lowercase;
-    font-weight: 400;
-    font-size: 18px;
-    position: relative;
-}
 
 .desc {
     font-size: 20px;
@@ -48,29 +43,36 @@
     padding: 20px;
     min-width: 120px;
     cursor: pointer;
-    border: none;
+    border: 2px solid black;
     border-radius: 5px;
     background-color: var(--primary);
     font-size: 1rem;
     color: #fff;
+    transition: .3s ease-in-out;
 }
 
 .btn:hover {
-    background-color: var(--bgDark);
-    transition: .3s ease-in-out;
+    background-color: var(--secondary);
+    color: #000;
 }
 
 .secondaryBtn {
     background-color: var(--secondary);
-    border: none;
-    color: white;
+    border: 2px solid #000;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.secondaryBtn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 
 .home_imgWrapper {
     width: 100%;
     max-width: 500px;
-    border: 4px dotted var(--primarySoft);
+    border: 3px dotted #fff;
     border-radius: 50%;
     padding: 15px;
     height: 500px;
@@ -87,7 +89,7 @@
     bottom: 0;
     height: 500px;
     border-radius: 50%;
-    border: 2px solid var(--primarySoft);
+    border: 2px solid #fff;
     padding: 15px; 
   }
 
@@ -115,5 +117,12 @@
     .container {
         gap: 50px;
     }
+  }
+
+
+
+  .heroSvg {
+    position: relative;
+    /* background-color: #fff; */
   }
 

@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
+    background-color: var(--pink);
 }
 
 .servicesWrapper {
@@ -23,16 +24,9 @@
 
 .title {
     font-size: 96px;
-    color: var(--bgDark);
-    text-transform: lowercase;
-    margin-bottom: 10px;
-}
-
-.subtitle {
     color: var(--primary);
     text-transform: lowercase;
-    font-weight: 400;
-    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .box h1 {
@@ -53,13 +47,15 @@
 }
 
 .box {
-    background-color: #F6EAE6;
-    padding: 2rem;
-    gap: 1rem;
+    background-color: var(--green);
+    padding: 3rem 2rem;
+    gap: 2rem;
     justify-content: left;
     align-items: start;
     text-align: left;
     border-radius: 10px;
+    position: relative;
+    border: 2px solid #000;
 }
 
 .boxes {
@@ -67,17 +63,23 @@
 }
 
 .icon {
-    height: 4rem;
-    width: 4rem;
-    color: var(--primary);
+    height: 5rem;
+    width: 5rem;
+    /* color: var(--secondary); */
     margin-bottom: 20px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
 }
 
 .link {
     text-decoration: underline;
     margin-top: 2rem;
-    font-weight: 600;
-    color: var(--secondary);
+    font-weight: 900;
 }
 
 @media (max-width: 1024px) {

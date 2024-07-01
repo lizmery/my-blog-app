@@ -7,7 +7,7 @@ const About = () => {
     <div className={styles.aboutSection}>
       <div className={`container ${styles.aboutWrapper}`}>
         <div className={styles.row}>
-          <h4 className={styles.subtitle}>Subtitle goes here </h4>
+          <h4 className='subtitle'>Subtitle goes here </h4>
           <h1 className={styles.title}>about us</h1>
         </div>
 

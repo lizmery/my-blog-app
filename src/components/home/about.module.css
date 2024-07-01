@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--bgDark);
+    background-color: var(--secondary);
+    min-height: 100vh;
 }
 
 .aboutWrapper {
@@ -20,6 +21,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .textContainer {
@@ -28,20 +30,12 @@
     flex-direction: column;
     gap: 40px;
     height: 100%;
-    color: white;
 }
 
 .title {
     font-size: 96px;
     color: var(--primary);
     text-transform: lowercase;
-}
-
-.subtitle {
-    color: #83c5be;
-    text-transform: lowercase;
-    font-weight: 400;
-    font-size: 18px;
 }
 
 .desc {
@@ -52,7 +46,7 @@
 .about_imgWrapper {
     width: 100%;
     max-width: 500px;
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--green);
     border-radius: 50%;
     padding: 15px;
     height: 500px;
@@ -69,7 +63,7 @@
     bottom: 0;
     height: 500px;
     border-radius: 50%;
-    border: 4px dotted var(--secondary);
+    border: 4px dotted var(--green);
     padding: 15px; 
   }
 

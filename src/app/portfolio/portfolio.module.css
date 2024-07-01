@@ -16,7 +16,7 @@
 
 .title {
     font-size: 96px;
-    color: var(--bgDark);
+    color: var(--primary);
     text-transform: lowercase;
     margin-bottom: 50px;
 }
@@ -43,6 +43,7 @@
     max-width: 400px;
     border-radius: 5px;
     transition: all .5s ease-in;
+    border: 2px solid #000;
 }
 
 .post:hover {

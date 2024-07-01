@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 :root {
-    --bg: #edf6f9;
+    /* --bg: #edf6f9;
     --black: #090909;
     --bgDark: #006d77;
     --primary: #e29578;
     --secondary: #83c5be;
-    --primarySoft: #ffddd2;
+    --primarySoft: #ffddd2; */
+    --green: #E7F3E2;
+    --black: #090909;
+    --pink: #FFEDEB;
+    --primary: #000;
+    --secondary: #fff;
 }
 
 * {
@@ -16,7 +21,7 @@
 }
 
 body {
-    background-color: var(--bg);
+    background-color: #fff;
     color: var(--black);
 }
 
@@ -34,6 +39,15 @@ a {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+}
+
+.subtitle {
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 30px;
+    position: relative;
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 @media (max-width: 1536px) {
@@ -75,4 +89,53 @@ a {
         padding-right: initial;
     }
 
+}
+
+
+
+
+.custom-shape-divider-bottom-1719860844 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1719860844 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 116px;
+}
+
+.custom-shape-divider-bottom-1719860844 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+.custom-shape-divider-bottom-1719864779 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1719864779 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 116px;
+}
+
+.custom-shape-divider-bottom-1719864779 .shape-fill {
+    fill: #FFFFFF;
 }
