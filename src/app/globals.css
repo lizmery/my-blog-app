@@ -106,18 +106,20 @@ a {
 .custom-shape-divider-bottom-1719867639 svg {
     position: relative;
     display: block;
-    width: 100%;
+    width: calc(117% + 1.3px);
     height: 116px;
+    overflow: hidden;
 }
 
 .custom-shape-divider-bottom-1719867639 .shape-fill {
     fill: #FFFFFF;
+    overflow: hidden;
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
     .custom-shape-divider-bottom-1719867639 svg {
-        width: 100%;
+        width: calc(128% + 1.3px);
         height: 116px;
     }
 }
